@@ -1,5 +1,5 @@
 {
-    "name": "kilyakus/yii2-widget-peacocktail",
+    "name": "kilyakus/yii2-widget-cocktail",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kilyakus\\peafowl\\": "src"
+            "kilyakus\\cocktail\\": "src"
         }
     }
 }
