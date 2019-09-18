@@ -1,0 +1,222 @@
+.kt-media {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 4px; }
+  .kt-media img {
+    width: 100%;
+    max-width: 50px;
+    height: 50px; }
+  .kt-media span {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem; }
+  .kt-media.kt-media--fixed {
+    width: 50px;
+    height: 50px; }
+    .kt-media.kt-media--fixed img {
+      width: 50px;
+      height: 50px;
+      max-width: auto; }
+  .kt-media img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 4px; }
+  .kt-media span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #74788d;
+    border-radius: 4px; }
+  .kt-media.kt-media--default {
+    background-color: #ebedf2; }
+  .kt-media.kt-media--brand span {
+    background: rgba(113, 106, 202, 0.1);
+    color: #716aca; }
+  .kt-media.kt-media--light span {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff; }
+  .kt-media.kt-media--dark span {
+    background: rgba(40, 42, 60, 0.1);
+    color: #282a3c; }
+  .kt-media.kt-media--primary span {
+    background: rgba(88, 103, 221, 0.1);
+    color: #5867dd; }
+  .kt-media.kt-media--success span {
+    background: rgba(29, 201, 183, 0.1);
+    color: #1dc9b7; }
+  .kt-media.kt-media--info span {
+    background: rgba(85, 120, 235, 0.1);
+    color: #5578eb; }
+  .kt-media.kt-media--warning span {
+    background: rgba(255, 184, 34, 0.1);
+    color: #ffb822; }
+  .kt-media.kt-media--danger span {
+    background: rgba(253, 57, 122, 0.1);
+    color: #fd397a; }
+  .kt-media.kt-media--xs img {
+    width: 100%;
+    max-width: 24px;
+    height: 24px; }
+  .kt-media.kt-media--xs span {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem; }
+  .kt-media.kt-media--xs.kt-media--fixed {
+    width: 24px;
+    height: 24px; }
+    .kt-media.kt-media--xs.kt-media--fixed img {
+      width: 24px;
+      height: 24px;
+      max-width: auto; }
+  .kt-media.kt-media--sm img {
+    width: 100%;
+    max-width: 30px;
+    height: 30px; }
+  .kt-media.kt-media--sm span {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem; }
+  .kt-media.kt-media--sm.kt-media--fixed {
+    width: 30px;
+    height: 30px; }
+    .kt-media.kt-media--sm.kt-media--fixed img {
+      width: 30px;
+      height: 30px;
+      max-width: auto; }
+  .kt-media.kt-media--md img {
+    width: 100%;
+    max-width: 47px;
+    height: 47px; }
+  .kt-media.kt-media--md span {
+    width: 47px;
+    height: 47px;
+    font-size: 1rem; }
+  .kt-media.kt-media--md.kt-media--fixed {
+    width: 47px;
+    height: 47px; }
+    .kt-media.kt-media--md.kt-media--fixed img {
+      width: 47px;
+      height: 47px;
+      max-width: auto; }
+  .kt-media.kt-media--lg img {
+    width: 100%;
+    max-width: 65px;
+    height: 65px; }
+  .kt-media.kt-media--lg span {
+    width: 65px;
+    height: 65px;
+    font-size: 1.3rem; }
+  .kt-media.kt-media--lg.kt-media--fixed {
+    width: 65px;
+    height: 65px; }
+    .kt-media.kt-media--lg.kt-media--fixed img {
+      width: 65px;
+      height: 65px;
+      max-width: auto; }
+  .kt-media.kt-media--xl img {
+    width: 100%;
+    max-width: 80px;
+    height: 80px; }
+  .kt-media.kt-media--xl span {
+    width: 80px;
+    height: 80px;
+    font-size: 1.7rem; }
+  .kt-media.kt-media--xl.kt-media--fixed {
+    width: 80px;
+    height: 80px; }
+    .kt-media.kt-media--xl.kt-media--fixed img {
+      width: 80px;
+      height: 80px;
+      max-width: auto; }
+  .kt-media.kt-media--circle {
+    border-radius: 50%; }
+    .kt-media.kt-media--circle img {
+      border-radius: 50%; }
+    .kt-media.kt-media--circle span {
+      border-radius: 50%; }
+
+.kt-media-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0; }
+  .kt-media-card .kt-media {
+    margin-right: 0.75rem; }
+  .kt-media-card .kt-media-card__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .kt-media-card .kt-media-card__info .kt-media-card__title {
+      color: #595d6e;
+      font-weight: 500;
+      font-size: 1.2rem;
+      -webkit-transition: color 0.3s ease;
+      transition: color 0.3s ease; }
+    .kt-media-card .kt-media-card__info a.kt-media-card__title {
+      -webkit-transition: color 0.3s ease;
+      transition: color 0.3s ease; }
+      .kt-media-card .kt-media-card__info a.kt-media-card__title:hover {
+        -webkit-transition: color 0.3s ease;
+        transition: color 0.3s ease;
+        color: #716aca; }
+    .kt-media-card .kt-media-card__info .kt-media-card__desc {
+      color: #74788d;
+      font-weight: 400;
+      font-size: 0.9rem; }
+    .kt-media-card .kt-media-card__info a.kt-media-card__desc {
+      -webkit-transition: color 0.3s ease;
+      transition: color 0.3s ease; }
+      .kt-media-card .kt-media-card__info a.kt-media-card__desc:hover {
+        -webkit-transition: color 0.3s ease;
+        transition: color 0.3s ease;
+        color: #716aca; }
+
+.kt-media-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .kt-media-group .kt-media {
+    position: relative;
+    z-index: 0;
+    margin-left: -10px;
+    border: 2px solid #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .kt-media-group .kt-media:first-child {
+      margin-left: 0; }
+    .kt-media-group .kt-media:hover {
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      z-index: 1; }
