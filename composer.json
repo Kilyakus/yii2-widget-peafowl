@@ -8,6 +8,9 @@
             "email": "aleksandr.kilyakov@gmail.com"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
     "autoload": {
         "psr-4": {
             "kilyakus\\peafowl\\": "src"
