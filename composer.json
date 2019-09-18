@@ -11,7 +11,7 @@
     "require": {
         "yiisoft/yii2": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "kilyakus\\peafowl\\": "src"
