@@ -1,5 +1,5 @@
 {
-    "name": "kilyakus/yii2-widget-peafowl",
+    "name": "kilyakus/yii2-widget-peacocktail",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,6 @@
     "require": {
         "yiisoft/yii2": "*"
     },
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "kilyakus\\peafowl\\": "src"
